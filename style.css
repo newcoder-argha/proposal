@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 1;
+    box-sizing: content-box;
+    font-family: serif;
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    min-width: 200px;
+    margin: 30px;
+    
+}
+
+.container .giphy {
+    min-width: 200px;
+
+}
+
+.container .btn {
+    display: flex;
+    gap: 25px;
+
+}
+
+.btn a{
+    text-decoration: solid;
+    
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(145, 52, 15);
+    background: rgba(245, 245, 220, 0.484);
+    padding: 25px 25px;
+    border-radius: 100px;
+    box-shadow: 0.5rem 1rem 3rem hsla(0, 76%, 59%, 0.7);
+
+}
+}
